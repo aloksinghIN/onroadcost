@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mango</groupId>
-	<artifactId>onroadcost</artifactId>
+	<artifactId>ROOT</artifactId>
 	<name>onroadcost</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
@@ -125,7 +125,7 @@
 			
 			<id>openshift</id>
 			<build>
-				<finalName>onroadcost</finalName>
+				<finalName>${artifactId}</finalName>
 				<plugins>
 					<plugin>
 						<artifactId>maven-war-plugin</artifactId>
