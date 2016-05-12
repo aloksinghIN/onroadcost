@@ -117,7 +117,14 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
-		</dependency>        
+		</dependency> 
+		
+		  <dependency>
+		      <groupId>com.openshift</groupId>
+		      <artifactId>openshift-java-client</artifactId>
+		      <version>2.7.0.Final</version>
+		  </dependency>
+		
 	</dependencies>
     
     <profiles>
